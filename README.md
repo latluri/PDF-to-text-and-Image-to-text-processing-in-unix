@@ -39,7 +39,7 @@ pdfimages input.pdf outputImage
 Option2
 pdftocairo -W 4000 -H 1800 -q -jpeg input.pdf outputImage
 
-# Converting to Image to Text 
+# Extract text from Image
 Tesseract is an optical character recognition engine for various operating systems. It is free software, released under the Apache License, Version 2.0, and development has been sponsored by Google since 2006.
 
 
