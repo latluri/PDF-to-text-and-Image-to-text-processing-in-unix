@@ -6,6 +6,7 @@ A normal PDF generated from a word/excel files have author names, codec informat
 Use the following codes in Linux/Unix cluster
 # option 1 Ghost scripts
 gs -sDEVICE=txtwrite -o output.txt input.pdf 
+
 Manpage- https://www.ghostscript.com/doc/9.19/VectorDevices.htm
 
 # option 2 
@@ -29,14 +30,15 @@ Normal pdf to word converters would not be useful here
 One way of dealing with this is 
 Convert PDF to Image and then Image to text
 This is because the scanners capture the image of the printout and converts this "image" to PDF to meet the customers' demand for a pdf file.
-##################################################################
+
 # Converting to Image
+
 option 1 
 pdfimages input.pdf outputImage
 
 Option2
 pdftocairo -W 4000 -H 1800 -q -jpeg input.pdf outputImage
-##################################################################
+
 # Converting to Image to Text 
 Tesseract is an optical character recognition engine for various operating systems. It is free software, released under the Apache License, Version 2.0, and development has been sponsored by Google since 2006.
 
