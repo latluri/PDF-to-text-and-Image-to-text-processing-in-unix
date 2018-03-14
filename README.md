@@ -1,5 +1,5 @@
 # PDF-to-text-and-Image-to-text-processing-in-linux/Unix
-If you are in linux/Unix environment and would like to extract the text from any of the PDF,Image or Scanned printout, you could avail these code
+If you are in linux/Unix environment and would like to extract the text from any of the PDF,Image or Scanned printout, you could avail these codes
 
 # Scenario 1: Computer generated PDF to Text
 A normal PDF generated from a word/excel files have author names, codec information, creation information and can be converted into a plain text format  
